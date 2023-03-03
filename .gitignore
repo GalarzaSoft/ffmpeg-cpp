@@ -30,3 +30,9 @@
 /source/ffmpeg-cpp/simple_interface_demo/obj/x64
 /source/ffmpeg-cpp/simple_interface/Debug/simple_interface.tlog
 /source/ffmpeg-cpp/simple_interface/Debug
+
+.vs/
+obj/
+
+x64/
+Win32/
