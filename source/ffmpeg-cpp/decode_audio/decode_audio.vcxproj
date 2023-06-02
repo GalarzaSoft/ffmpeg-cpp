@@ -110,8 +110,8 @@
       <AdditionalDependencies>$(FFmpegLibraryDir)lib\avcodec.lib;$(FFmpegLibraryDir)lib\avfilter.lib;$(FFmpegLibraryDir)lib\avformat.lib;$(FFmpegLibraryDir)lib\avutil.lib;$(FFmpegLibraryDir)lib\swresample.lib;$(FFmpegLibraryDir)lib\swscale.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy $(SamplesDir) $(OutDir)samples /s /y /i
-xcopy $(FFmpegLibraryDir)bin $(OutDir) /s /y /i</Command>
+      <Command>xcopy "$(SamplesDir)" "$(OutDir)samples" /s /y /i
+xcopy "$(FFmpegLibraryDir)bin" "$(OutDir)" /s /y /i</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -131,8 +131,8 @@ xcopy $(FFmpegLibraryDir)bin $(OutDir) /s /y /i</Command>
       <AdditionalDependencies>$(FFmpegLibraryDir)lib\avcodec.lib;$(FFmpegLibraryDir)lib\avfilter.lib;$(FFmpegLibraryDir)lib\avformat.lib;$(FFmpegLibraryDir)lib\avutil.lib;$(FFmpegLibraryDir)lib\swresample.lib;$(FFmpegLibraryDir)lib\swscale.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy $(SamplesDir) $(OutDir)samples /s /y /i
-xcopy $(FFmpegLibraryDir)bin $(OutDir) /s /y /i</Command>
+      <Command>xcopy "$(SamplesDir)" "$(OutDir)samples" /s /y /i
+xcopy "$(FFmpegLibraryDir)bin" "$(OutDir)" /s /y /i</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -156,8 +156,8 @@ xcopy $(FFmpegLibraryDir)bin $(OutDir) /s /y /i</Command>
       <AdditionalDependencies>$(FFmpegLibraryDir)lib\avcodec.lib;$(FFmpegLibraryDir)lib\avfilter.lib;$(FFmpegLibraryDir)lib\avformat.lib;$(FFmpegLibraryDir)lib\avutil.lib;$(FFmpegLibraryDir)lib\swresample.lib;$(FFmpegLibraryDir)lib\swscale.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy $(SamplesDir) $(OutDir)samples /s /y /i
-xcopy $(FFmpegLibraryDir)bin $(OutDir) /s /y /i</Command>
+      <Command>xcopy "$(SamplesDir)" "$(OutDir)samples" /s /y /i
+xcopy "$(FFmpegLibraryDir)bin" "$(OutDir)" /s /y /i</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -181,8 +181,8 @@ xcopy $(FFmpegLibraryDir)bin $(OutDir) /s /y /i</Command>
       <AdditionalDependencies>$(FFmpegLibraryDir)lib\avcodec.lib;$(FFmpegLibraryDir)lib\avfilter.lib;$(FFmpegLibraryDir)lib\avformat.lib;$(FFmpegLibraryDir)lib\avutil.lib;$(FFmpegLibraryDir)lib\swresample.lib;$(FFmpegLibraryDir)lib\swscale.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy $(SamplesDir) $(OutDir)samples /s /y /i
-xcopy $(FFmpegLibraryDir)bin $(OutDir) /s /y /i</Command>
+      <Command>xcopy "$(SamplesDir)" "$(OutDir)samples" /s /y /i
+xcopy "$(FFmpegLibraryDir)bin" "$(OutDir)" /s /y /i</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>

@@ -111,8 +111,8 @@
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy $(SamplesDir) $(OutDir)samples /s /y /i
-xcopy $(FFmpegLibraryDir)bin $(OutDir) /s /y /i</Command>
+      <Command>xcopy "$(SamplesDir)" "$(OutDir)samples" /s /y /i
+xcopy "$(FFmpegLibraryDir)bin" "$(OutDir)" /s /y /i</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -132,8 +132,8 @@ xcopy $(FFmpegLibraryDir)bin $(OutDir) /s /y /i</Command>
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy $(SamplesDir) $(OutDir)samples /s /y /i
-xcopy $(FFmpegLibraryDir)bin $(OutDir) /s /y /i</Command>
+      <Command>xcopy "$(SamplesDir)" "$(OutDir)samples" /s /y /i
+xcopy "$(FFmpegLibraryDir)bin" "$(OutDir)" /s /y /i</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -157,8 +157,8 @@ xcopy $(FFmpegLibraryDir)bin $(OutDir) /s /y /i</Command>
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy $(SamplesDir) $(OutDir)samples /s /y /i
-xcopy $(FFmpegLibraryDir)bin $(OutDir) /s /y /i</Command>
+      <Command>xcopy "$(SamplesDir)" "$(OutDir)samples" /s /y /i
+xcopy "$(FFmpegLibraryDir)bin" "$(OutDir)" /s /y /i</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -182,8 +182,8 @@ xcopy $(FFmpegLibraryDir)bin $(OutDir) /s /y /i</Command>
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy $(SamplesDir) $(OutDir)samples /s /y /i
-xcopy $(FFmpegLibraryDir)bin $(OutDir) /s /y /i</Command>
+      <Command>xcopy "$(SamplesDir)" "$(OutDir)samples" /s /y /i
+xcopy "$(FFmpegLibraryDir)bin" "$(OutDir)" /s /y /i</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
